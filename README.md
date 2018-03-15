@@ -4,7 +4,7 @@ BTLE TI Sensortag snapcraft yaml file to buils a sensortag snap
 # Build and run the snap
 Clone or dowload the repo to a Linux device running snapcraft 2.x and build the snap with snapcraft. Run the snap installing on a snapd capable system. More info at http://snapcraft.io/create/
 
-# USage and examples
+# Usage and examples
 
 Use hcitool lescan to get the sensortag address:
 
