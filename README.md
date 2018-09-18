@@ -44,3 +44,5 @@ This snap works with the TI CC2650 multi-standard SensorTag.
 - Magnetometer: Strength of a magnetic field in the three axis (uT)
 - Gyroscope: Rotational motion (degrees/second)
 - Light: Ambient Light (Lux)
+
+Sensortags with older firmware versions might not work properly with --all.
