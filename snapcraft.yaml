@@ -15,5 +15,6 @@ parts:
     plugin: python
     python-version: python3
     source: https://github.com/IanHarvey/bluepy
+    source-tag: SENSORTAG_CC1352R
     source-type: git
     build-packages: [libglib2.0-dev]
