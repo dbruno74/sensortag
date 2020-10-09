@@ -8,12 +8,17 @@ grade: stable
 apps:
   sensortag:
     command: bin/sensortag
-    plugs: [bluetooth-control]
+    plugs: [bluetooth-control, network]
 
 parts:
   bluepy:
     plugin: python
     python-version: python3
-    source: https://github.com/IanHarvey/bluepy
+#    python-packages: [ python3-pip ]
+    source: https://github.com/dbruno74/bluepy.git
+    source-tag: SENSORTAG_CC1352R
     source-type: git
     build-packages: [libglib2.0-dev]
+#    build-environment:
+#      - PYTHONPATH: /home/ubuntu/host/workdir/sensortag-master/parts/bluepy/install/usr/lib/python3.6:$PYTHONPATH
+#      - PYTHONHOME: /home/ubuntu/host/workdir/sensortag-master/parts/bluepy/install/usr/lib/phyton3.6:$PYTHONHOME
