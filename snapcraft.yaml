@@ -1,5 +1,5 @@
 name: mysensortag
-version: 1.0.5.2
+version: 1.0.5.3
 summary: SensorTag Python Bluetooth LE snap
 description: Command line tools for Python Bluetooth Low Energy access
 confinement: strict
