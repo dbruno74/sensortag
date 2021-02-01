@@ -1,4 +1,5 @@
 name: mysensortag
+base: core20
 version: 1.0.5.3
 summary: SensorTag Python Bluetooth LE snap
 description: Command line tools for Python Bluetooth Low Energy access
@@ -13,8 +14,9 @@ apps:
 parts:
   bluepy:
     plugin: python
-    python-version: python3
     source: https://github.com/dbruno74/bluepy.git
     source-tag: SENSORTAG_CC1352R
     source-type: git
-    build-packages: [libglib2.0-dev]
+    build-packages: 
+       - libglib2.0-dev
+       - python3-pip
